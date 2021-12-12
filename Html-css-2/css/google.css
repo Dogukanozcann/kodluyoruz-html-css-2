@@ -1,0 +1,149 @@
+
+/* div'e contentteki google resmi ortalandı */
+.content {
+    width: 350px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+/* Article'de search kutusu renk verilip ortalandı */
+.beyazkutu {
+    background-color: rgb(233, 208, 208);
+    height: 65px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+
+.arama {
+    padding-left: 4.5%;
+}
+
+
+input,
+label {
+    height: 15px;
+    width: 330px;
+    margin-left: 700px;
+    margin-right: 650px;
+} 
+
+/* küçük kutular ıd ile oluşturulup ortalandı  */
+#getgoogle input, 
+#getgoogle label 
+{
+    height: 15px;
+    width: 170px;
+    margin-left: 270px;
+}
+
+.paylasbutonu {
+   margin-left: 300px;
+}
+
+ /* kutular içindeki yazılar ve kutular ortalandı */
+.kutu1 {
+    height: 25px;
+    width: 75%;
+    /* margin-right: 30%; */
+    padding-left: auto;
+    padding-right: auto;
+    margin: 0px 0px 0px 735px;
+
+}
+
+.kutu2 {
+    height: 25px;
+    width: 75%;
+    padding-left: auto;
+    padding-right: auto;
+
+}
+
+/* google search ve lucky kutuları yan yana alındı */
+.container {
+width: 9%;
+    float: left;
+}
+
+
+/* Yeşil tonlarındaki üç kutununda hem yazı hem kutu ortalanması ayrıca renk ayarı yapıldı */
+.birincikutu {
+    width: 600px;
+    height: 80px;
+    background-color:#7EE5DA ;
+    float: left;
+    margin-top: 2px;
+    margin-right: 2px;
+    text-align: center;
+}
+
+.birincikutuyazi {
+    text-decoration: underline;
+    table-layout: auto;
+    width: 100%;
+}
+
+
+
+.ikincikutuyazi {
+    text-decoration: underline;
+    table-layout: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.ikincikutu {
+    width: 370px;
+    height: 80px;
+    background-color:#70CCC2 ;
+    float: left;
+    margin-top: 2px;
+    margin-right: 2px;
+    
+}
+
+
+/* tiklamarengine hover kodunu eklendi ve üzerine gelindiğinde kırmızı rengine dönmesi sağlandı */
+.tiklamarengi:hover {
+    color: red;
+}
+
+
+
+.ucuncukutu {
+    width: 728px;
+    height: 80px;
+    background-color:#62B3AA;
+    float: left;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.ucuncukutuyazi {
+    font-size: 0.8em;
+    margin-left: 300px;
+    margin-top: -5px;
+
+}
+
+
+.uckututoplam {
+    height: 65px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+.footer {
+        font-size: 0.8em;
+        margin-left: 750px;
+        margin-top: 5%;
+
+}
